@@ -20,7 +20,7 @@ export default async function Home() {
   return (
     <main className="m-auto flex min-h-screen w-full max-w-[420px] items-end justify-center">
       <div className="relative">
-        <Image alt="Mortal Kombat tower" height={1080} src={tower} />
+        <Image alt="Mortal Kombat tower" className="min-w-[360px]" height={1080} src={tower} />
         <div
           className="absolute bottom-0 left-[70px] grid w-[190px] grid-cols-1 gap-[6px] px-2"
           style={{gridTemplateRows: `repeat(${BILLS.length - 1}, 93px) 85px`}}
