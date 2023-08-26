@@ -34,7 +34,7 @@ export default async function Home() {
               style={{bottom: `calc(${((PRICE - min) * 100) / (max - min) / 2}%)`}}
             >
               <Image alt="One Dollar" height={72} src={dollar} />
-              <p className="absolute bottom-1 h-[24px] bg-black px-1 text-sm leading-[24px]">
+              <p className="absolute bottom-1 h-[24px] bg-[Canvas] px-1 text-sm leading-[24px] text-[CanvasText]">
                 {Number(PRICE).toLocaleString("es-AR", {style: "currency", currency: "ARS"})}
               </p>
             </div>

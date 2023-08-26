@@ -17,5 +17,5 @@ body {
 :root {
   background-color: Canvas;
   color: CanvasText;
-  color-scheme: dark;
+  color-scheme: dark light;
 }
