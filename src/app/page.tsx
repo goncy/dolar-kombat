@@ -3,7 +3,7 @@ import Image from "next/image";
 import tower from "./tower.png";
 import dollar from "./dollar.png";
 
-// Revalidate every hour
+// Revalidate every 15 minutes
 export const revalidate = 60 * 15;
 
 // Bills in ARS
