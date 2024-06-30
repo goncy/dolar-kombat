@@ -3,11 +3,11 @@ import Image from "next/image";
 import tower from "./tower.png";
 import dollar from "./dollar.png";
 
-// Revalidate every hour
-export const revalidate = 60 * 60;
+// Revalidate every 15 minutes
+export const revalidate = 60 * 15;
 
 // Bills in ARS
-const BILLS = [5000, 2000, 1000, 500, 200, 100, 50, 20, 10, 5, 2, 0];
+const BILLS = [10000, 2000, 1000, 500, 200, 100, 50, 20, 10, 5, 2, 0];
 
 export default async function Home() {
   const PRICE = await fetch("https://api.bluelytics.com.ar/v2/latest")
